@@ -1,0 +1,189 @@
+@font-face {
+    font-family: Roboto Light, sans serif;
+    src: url(./fonts/Roboto-Light.ttf);
+    font-weight: 300;
+}
+
+body {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #000;
+    font-family: Roboto Light, sans serif;
+}
+
+.input_scan {
+    display: none;
+}
+
+.wrapper_block {
+    margin: 50px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.section_title li {
+    color: red;
+}
+
+.section_title li span {
+    color: #000;
+}
+
+
+.section_form {
+    margin: 25px 32px 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.download_file {
+    width: 229px;
+}
+
+.download_file,
+.scan_file,
+.pay_app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+h2 {
+    font-family: Roboto Light, sans serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.img_scan {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_block_download {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: initial;
+    position: relative;
+    left: 8%;
+    top: 19%;
+}
+
+.img_pdf_two {
+    background: url(./img/pdf2.png);
+    width: 31px;
+    height: 42px;
+}
+
+.img_download {
+    display: flex;
+    justify-content: space-around;
+}
+.scan_first {
+    background: url(./img/file_1.png);
+    width: 85px;
+    height: 110px;
+}
+
+.img_pdf {
+    background: url(./img/pdf1.png);
+    width: 31px;
+    height: 42px;
+}
+
+.scan_file {
+    width: 274px;
+    text-align: center;
+}
+
+.block_first {
+    background: url(./img/pen.png);
+    width: 85px;
+    height: 110px;
+}
+
+.block_two {
+    background-image: url(./img/pen.png);
+    width: 85px;
+    height: 110px;
+}
+
+.img_block {
+    display: flex;
+    position: relative;
+    left: 25%;
+    top: 50%;
+}
+
+.number_img_one {
+    background: url(./img/one.png);
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 16px;
+}
+
+.check {
+    background: url(./img/chek.png);
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    display: none;
+}
+
+.number_img_two {
+    background: url(./img/two.png);
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 16px;
+}
+
+.pay_app {
+    width: 274px;
+    justify-content: center;
+    gap: 23px;
+    
+}
+
+.btn_pay {
+    width: 245px;
+    height: 36px;
+    background: #EC1630;
+    border-radius: 25px;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.section_info {
+    color: #000;
+    background: #EEEEEE;
+    border: 1px solid #EC1630;
+    font-family: Roboto Light, sans serif;
+    font-weight: 300;
+    font-size: 12px;
+    padding: 15px;
+    line-height: 14px;
+}
+
+@media screen and (max-width: 1024px)  {
+    .section_form {
+        gap: 20px;
+    }
+
+    .wrapper_block {
+        margin: 25px;
+    }
+}
+
+@media screen and (max-width: 900px)  {
+    .section_form {
+        gap: 60px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrapper_block {
+        margin: 10px;
+    }
+}
